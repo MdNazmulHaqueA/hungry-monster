@@ -1,55 +1,79 @@
 /* reset */
 * {
-    margin: 0;
-    padding: 0;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 /* basic element styling */
 body {
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+   box-sizing: border-box;
 }
 section {
-    overflow: hidden;
+   overflow: hidden;
 }
 
 /* Navbar */
 .nav-item {
-    padding: 10px 15px;
+   padding: 10px 15px;
 }
 .navbar-light .navbar-nav .nav-link {
-    font-size: 1.2rem;
-    color: #3c3c3c;
+   font-size: 1.2rem;
+   color: #3c3c3c;
 }
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #f06c4e;
-    font-weight: bold;
+   color: #f06c4e;
+   font-weight: bold;
 }
 
 /* Search bar */
 .form-control {
-    background-color: #f8f7f5;
-    padding: 20px;
-    border: none;
-    border-radius: 5px;
+   background-color: #f8f7f5;
+   padding: 20px;
+   border: none;
+   border-radius: 5px;
 }
 
 .btn {
-    padding: 10px 30px;
-    color: #ffffff;
-    background: #f06c4e;
-    border: none;
+   padding: 10px 30px;
+   color: #ffffff;
+   background: #f06c4e;
+   border: none;
 }
 
 .search-box {
-    position: relative;
+   position: relative;
 }
 .search-button {
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
-    border-start-start-radius: 0.25rem;
-    border-start-end-radius: 0.5rem;
-    border-end-start-radius: 0.25rem;
-    border-end-end-radius: 0.5rem;
+   position: absolute;
+   top: 0;
+   right: 0;
+   height: 100%;
+   border-start-start-radius: 0.2rem;
+   border-start-end-radius: 0.5rem;
+   border-end-start-radius: 0.2rem;
+   border-end-end-radius: 0.5rem;
+}
+
+.not-found {
+   font-family: 'Bebas Neue', cursive;
+   color: #f06c4e;
+   font-size: 50px;
+   line-height: 100%;
+   letter-spacing: 3px;
+}
+
+.card {
+   border: none;
+   background: #f1f1f1;
+   border-radius: 15px;
+}
+
+.card-img-top {
+   border-start-start-radius: 15px;
+   border-start-end-radius: 15px;
+}
+
+.meal-title {
+   color: #3c3c3c;
 }

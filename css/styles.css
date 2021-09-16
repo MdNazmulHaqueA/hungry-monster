@@ -33,18 +33,14 @@ section {
    border: none;
    border-radius: 5px;
 }
-
-.btn {
-   padding: 10px 30px;
-   color: #ffffff;
-   background: #f06c4e;
-   border: none;
-}
-
 .search-box {
    position: relative;
 }
 .search-button {
+   padding: 10px 30px;
+   color: #ffffff;
+   background: #f06c4e;
+   border: none;
    position: absolute;
    top: 0;
    right: 0;
@@ -55,25 +51,25 @@ section {
    border-end-end-radius: 0.5rem;
 }
 
-.not-found {
-   font-family: 'Bebas Neue', cursive;
-   color: #f06c4e;
-   font-size: 50px;
-   line-height: 100%;
-   letter-spacing: 3px;
-}
-
+/* display Search Items */
 .card {
    border: none;
-   background: #f1f1f1;
+   background: #f8f7f5;
    border-radius: 15px;
 }
-
 .card-img-top {
    border-start-start-radius: 15px;
    border-start-end-radius: 15px;
 }
-
-.meal-title {
+#meal-item {
+   cursor: pointer;
+}
+#meal-title {
    color: #3c3c3c;
+}
+
+/* Display details  */
+.recipe-detail-img {
+   border-radius: 10px;
+   height: 320px;
 }
